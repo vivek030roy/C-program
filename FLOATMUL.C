@@ -7,6 +7,7 @@ void main()
 	c=a*b;
 	printf("multiplied product:%f",c);
 	printf("Multiplied product:%.1f",c);
+	printf("multiplied product=%.2f",c);
 	getch();
 
 	}
