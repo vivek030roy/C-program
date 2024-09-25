@@ -1,0 +1,48 @@
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+	{
+	int i,n,m,a,s,mu,d,rd;
+	clrscr();
+	printf("Enter the two no.s");
+	scanf("%d%d",&n,&m);
+	printf("\nEnter the operands:");
+	printf("\nEnter 1 to add:");
+	printf("\nEnter 2 to subtact:");
+	printf("\nEnter 3 to multiply");
+	printf("\nEnter 4 to divide:");
+	printf("\nEnter 5 to remainder diuvision:");
+	scanf("%d",&i);
+	if(i==1)
+		{
+		a=n+m;
+		printf("\n%d is addition",a);
+		}
+	else if(i==2)
+		{
+		s=n-m;
+		printf("\n%d is substraction",s);
+		}
+	else if(i==3)
+		{
+		mu=n*m;
+		printf("\n%d is multiplication",mu);
+		}
+	else if(i==4)
+		{
+		d=n/m;
+		printf("\n%d is division",d);
+		}
+	else if(i==5)
+		{
+		rd=n%m;
+		printf("\n%d is remander divison",rd);
+		}
+	else
+		{
+		printf("Wrong operaions");
+		}
+	getch();
+
+	}
