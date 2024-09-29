@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+	{
+	int b,i,c,j;
+	clrscr();
+	printf("Enter base money=");
+	scanf("%d",&b);
+	printf("Enter intrest ");
+	scanf("%d",&i);
+	c=(b*i)/100;
+	j=c+b;
+	printf("to pay=%d",j);
+	getch();
+	}
